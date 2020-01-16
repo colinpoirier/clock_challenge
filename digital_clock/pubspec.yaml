@@ -3,7 +3,7 @@ description: Digital clock.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.2.2 <3.0.0"
 
 dependencies:
   flutter:
@@ -11,6 +11,8 @@ dependencies:
   flutter_clock_helper:
     path: ../flutter_clock_helper
   cupertino_icons: ^0.1.2
+  provider: '3.2.0'
+  weather_icons: '2.0.0'
 
 dev_dependencies:
   flutter_test:
@@ -19,6 +21,6 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   fonts:
-    - family: PressStart2P
+    - family: Comfortaa
       fonts:
-        - asset: third_party/PressStart2P-Regular.ttf
+        - asset: third_party/Comfortaa-Bold.ttf
