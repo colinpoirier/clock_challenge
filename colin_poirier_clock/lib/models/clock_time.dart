@@ -18,7 +18,7 @@ class ClockTime extends ChangeNotifier {
 
   void updateTime() {
     _dateTime = DateTime.now();
-    // _dateTime = _dateTime.add(Duration(seconds: 10));
+    // _dateTime = _dateTime.add(Duration(minutes: 1));
 
     preciseMinute = minute + second / 60;
     preciseHour = _dateTime.hour + preciseMinute / 60;
@@ -33,8 +33,8 @@ class ClockTime extends ChangeNotifier {
       updateTime,
     );
     // timer = Timer(
-    // Duration(milliseconds: 5),
-    // updateTime,
+    //  Duration(milliseconds: 16),
+    //  updateTime,
     // );
   }
 
